@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightgreen;
+    font-family: 'poppins',sans-serif;
+}
+.message-box{
+    padding: 40px 70px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    background-color: white;
+
+    box-shadow: 0 5px 15px rgb(0,0,0,0.2);
+
+    color: darkgray;
+    font-size: 40px;
+    font-weight: bold;
+
+    transition: background-color 0.3s;
+}
+.message-box:hover{
+    background-color: gray;
+
+}
